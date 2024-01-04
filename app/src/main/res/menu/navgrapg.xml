@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:icon="@drawable/home_nave_image"/>
+    <item
+        android:id="@+id/navAnalytics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Analytics"
+        android:icon="@drawable/analytics_nav_image"/>
+    <item
+        android:id="@+id/navSmsTesting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="SMS Testing"
+        android:icon="@drawable/sms_testing_nav_image"/>
+    <item
+        android:id="@+id/navSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Settings"
+        android:icon="@drawable/settings_nav_image"/>
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    app:startDestination="@id/fragment_splashscreen">
+
+    <fragment
+        android:id="@+id/analyticsScreen_Fragment"
+        android:name="com.ngts.wappelyzerweb.AnalyticsScreen_Fragment"
+        android:label="fragment_analytics_screen_"
+        tools:layout="@layout/fragment_analytics_screen_" />
+    <fragment
+        android:id="@+id/fragment_home_screen"
+        android:name="com.ngts.wappelyzerweb.Fragment_home_screen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_fragment_home_screen_to_analyticsScreen_Fragment"
+            app:destination="@id/analyticsScreen_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_splashscreen"
+        android:name="com.ngts.wappelyzerweb.Fragment_splashscreen"
+        android:label="fragment_splashscreen"
+        tools:layout="@layout/fragment_splashscreen" >
+        <action
+            android:id="@+id/action_fragment_splashscreen_to_fragment_Loginscreen"
+            app:destination="@id/fragment_Loginscreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Loginscreen"
+        android:name="com.ngts.wappelyzerweb.Fragment_Loginscreen"
+        android:label="fragment__loginscreen"
+        tools:layout="@layout/fragment__loginscreen" >
+        <action
+            android:id="@+id/action_fragment_Loginscreen_to_fragment_home_screen"
+            app:destination="@id/fragment_home_screen" />
+        <action
+            android:id="@+id/action_fragment_Loginscreen_to_singin_accountFragment"
+            app:destination="@id/singin_accountFragment" />
+        <action
+            android:id="@+id/action_fragment_Loginscreen_to_forgotaccount2"
+            app:destination="@id/forgotaccount" />
+    </fragment>
+    <fragment
+        android:id="@+id/singin_accountFragment"
+        android:name="com.ngts.wappelyzerweb.Fragment_singinaccount"
+        android:label="fragment_singin_account"
+        tools:layout="@layout/fragment_singinaccount" >
+        <action
+            android:id="@+id/action_singin_accountFragment_to_fragment_Loginscreen"
+            app:destination="@id/fragment_Loginscreen" />
+        <action
+            android:id="@+id/action_singin_accountFragment_to_fragment_home_screen"
+            app:destination="@id/fragment_home_screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotaccount"
+        android:name="com.ngts.wappelyzerweb.Fragment_forgot_account"
+        android:label="fragment_forgotaccount"
+        tools:layout="@layout/fragment_forgotaccount" >
+        <action
+            android:id="@+id/action_forgotaccount_to_fragment_Loginscreen"
+            app:destination="@id/fragment_Loginscreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetscreen_Fragment"
+        android:name="com.ngts.wappelyzerweb.Fragment_resetscreen"
+        android:label="fragment_resetscreen_"
+        tools:layout="@layout/fragment_resetscreen_" />
+</navigation>

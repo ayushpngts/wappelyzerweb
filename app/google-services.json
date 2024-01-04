@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936759664475",
+    "project_id": "wappelyzerweb",
+    "storage_bucket": "wappelyzerweb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936759664475:android:4cec268d49d2eb8fed047e",
+        "android_client_info": {
+          "package_name": "com.ngts.wappelyzerweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936759664475-sg0utf5jj08emi8dp39k7q2gn99dq2il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIiuPangCdJYoQW5NnKS0lIjSo4KZhz3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936759664475-sg0utf5jj08emi8dp39k7q2gn99dq2il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

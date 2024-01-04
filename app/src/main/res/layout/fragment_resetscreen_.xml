@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_resetscreen"
+    android:background="#101116">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="267dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="48dp"
+        android:src="@drawable/reset" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="316dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/reset"
+        android:layout_marginEnd="17dp"
+        android:text="Reset Password"
+        android:textColor="@color/white"
+        android:textSize="36dp" />
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="17dp"
+        android:text="Your new password must be different from previously used password"
+        android:textColor="#9F9C9C"
+        android:textSize="15sp"/>
+
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="240dp"
+        android:text="New Password"
+        android:textColor="#B6B4B4"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/etemail2"
+        android:layout_below="@id/text2"
+        android:layout_width="360dp"
+        android:layout_height="46dp"
+        android:paddingStart="15dp"
+        android:hint="mail@abc.com"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#454444"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:textColor="@color/white"
+        android:background="@drawable/costument2"
+        />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_below="@id/etemail2"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="210dp"
+        android:text="Confirm Password"
+        android:textColor="#B6B4B4"
+        android:textSize="14dp" />
+
+
+    <EditText
+        android:id="@+id/etemail3"
+        android:layout_below="@id/text3"
+        android:layout_width="360dp"
+        android:layout_height="46dp"
+        android:paddingStart="15dp"
+        android:hint="mail@abc.com"
+        android:textColorHint="#454444"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:textColor="@color/white"
+        android:background="@drawable/costument2"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_Continue"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etemail3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="44dp"
+        app:cornerRadius="7dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#20D0C2"
+        android:text="Continue"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

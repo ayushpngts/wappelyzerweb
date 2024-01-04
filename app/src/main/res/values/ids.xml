@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bottomNavBar" type="id" />
+    <item name="navAnalytics" type="id" />
+    <item name="navSmsTesting" type="id" />
+    <item name="navSettings" type="id" />
+    <item name="action_splash" type="id" />
+    <item name="fragmentContainerView" type="id" />
+    <item name="selectWeek" type="id" />
+    <item name="selectInbox" type="id" />
+    <item name="smsActivityReport" type="id" />
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appColor">#20D0C2</color>
+    <color name="tvGray">#CCCACA</color>
+    <color name="tvSignin">#CDCDCD</color>
+    <color name="tvWhite">#FFFFFF</color>
+    <color name="bodyColor">#101116</color>
+    <color name="blackLite">#15192C</color>
+    <color name="grapLite">#92959E</color>
+    <color name="buleLite">#6DEAE0</color>
+    <color name="red">#FF5858</color>
+    <color name="hint">#828282</color>
+</resources>
